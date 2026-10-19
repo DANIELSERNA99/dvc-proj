@@ -1,0 +1,6 @@
+[core]
+    remote = aws-remote
+['remote "aws-remote"']
+    url = s3://daniel-dvcstore-2026
+['remote "local"']
+    url = /home/ubuntu/dvc-proj/.dvc/cache
